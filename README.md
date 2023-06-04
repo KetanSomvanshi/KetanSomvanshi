@@ -20,6 +20,7 @@ I'm an innovative Engineer and a Problem Solver with a proven track record in bu
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ketansomvanshi/)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=flat-square&logo=twitter)](https://twitter.com/ketsindian)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=mail)](mailto:ketan.dev0@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Solve-yellow?style=flat-square&logo=leetcode)](https://leetcode.com/ketansomvanshi007/)
 
 Let's connect and collaborate on exciting projects!
 
