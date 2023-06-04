@@ -4,6 +4,7 @@
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter)](https://twitter.com/ketsindian)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=mail)](mailto:ketan.dev0@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Solve-yellow?style=for-the-badge&logo=leetcode)](https://leetcode.com/ketansomvanshi007/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-lightgrey?style=for-the-badge)](https://ketansomvanshi.github.io/KetanSomvanshi/)
 
 I'm an innovative Engineer and a Problem Solver with a proven track record in building cutting-edge, high-performance, and scalable systems that drive the digital landscape. With a meticulous attention to detail and a passion for delivering reliable solutions, I thrive on transforming complex challenges into elegant and efficient software solutions.
 
