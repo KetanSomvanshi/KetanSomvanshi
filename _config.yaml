@@ -1,17 +1,15 @@
 # Site settings
-title: Your Site Title
-description: Your Site Description
-baseurl: "" # Set this if your site is hosted under a subpath, e.g., /my-site/
-url: "" # Set your site URL
+title: Ketan Somvanshi
+description: Backend Developer | Portfolio
+baseurl: "/KetanSomvanshi" # Set this if your site is hosted under a subpath, e.g., /my-site/
+url: "https://ketansomvanshi.github.io" # Set your site URL
 
 # Build settings
 markdown: kramdown
-theme: midnight # You can change the theme here, or install custom themes
+theme: jekyll-theme-midnight # Change the theme to "jekyll-theme-midnight"
 
 # GitHub Pages specific configuration
-remote_theme: # Specify the remote theme if you're using one
-  - "mmistakes/minimal-mistakes" # Example remote theme
-
+remote_theme: ""
 plugins:
   - jekyll-feed
 
@@ -31,4 +29,4 @@ permalink: /blog/:year/:month/:day/:title/
 # GitHub Pages specific configuration
 github:
   repository: KetanSomvanshi/KetanSomvanshi
-  baseurl: "" # Set this if your site is hosted under a subpath, e.g., /my-site/
+  baseurl: "/KetanSomvanshi" # Set this if your site is hosted under a subpath, e.g., /my-site/
