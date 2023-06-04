@@ -3,8 +3,8 @@
 I'm an innovative Engineer and a Problem Solver with a proven track record in building cutting-edge, high-performance, and scalable systems that drive the digital landscape. With a meticulous attention to detail and a passion for delivering reliable solutions, I thrive on transforming complex challenges into elegant and efficient software solutions.
 
 🔧 Skills: 
-- 💻 Languages: Python, Java, Go , JS
-- 🚀 Frameworks: FastAPI, Celery, Echo, Flask, Spring Boot , React
+- 💻 Languages: Python, Java, Go, JS
+- 🚀 Frameworks: FastAPI, Celery, Echo, Flask, Spring Boot, React
 - ☁️ Infrastructure: AWS, Terraform, Docker
 - 🗄️ Databases: PostgreSQL, Redis, Clickhouse, MongoDB, Elasticsearch
 
@@ -13,10 +13,8 @@ I'm an innovative Engineer and a Problem Solver with a proven track record in bu
 - Senior Software Engineer at [RadixHealth](https://www.radixhealth.com/), working on DASH
 - Software Engineer at [HSBC](https://www.hsbc.com/), focusing on customer onboarding
 
-
 🚀 Side Project:
-Tech Lead at ShopMyCar, product aiming to revolutionize the car buying/selling experience.
-
+Tech Lead at ShopMyCar, a product aiming to revolutionize the car buying/selling experience.
 
 ⚡ Interests:
 Distributed Systems, High-Level System Designing, Low-Level System Designing, Object Oriented Programming, Data Structures and Algorithms.
