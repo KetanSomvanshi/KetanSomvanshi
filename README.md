@@ -7,11 +7,15 @@
 
 I'm an innovative Engineer and a Problem Solver with a proven track record in building cutting-edge, high-performance, and scalable systems that drive the digital landscape. With a meticulous attention to detail and a passion for delivering reliable solutions, I thrive on transforming complex challenges into elegant and efficient software solutions.
 
+
 🔧 Skills: 
-- 💻 Languages: Python, Java, Go, JS
-- 🚀 Frameworks: FastAPI, Celery, Echo, Flask, Spring Boot, React
-- ☁️ Infrastructure: AWS, Terraform, Docker
-- 🗄️ Databases: PostgreSQL, Redis, Clickhouse, MongoDB, Elasticsearch
+- 💻 Languages: <img src="https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/Go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/JS-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" height="20"/>
+- 🚀 Frameworks: <img src="https://img.shields.io/badge/FastAPI-%230D96F6.svg?style=for-the-badge&logo=fastapi&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/Celery-%2348B648.svg?style=for-the-badge&logo=celery&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/Echo-%232D3235.svg?style=for-the-badge&logo=echo&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/Flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black" height="20"/>
+- ☁️ Infrastructure: <img src="https://img.shields.io/badge/AWS-%23232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/Terraform-%23623CE4.svg?style=for-the-badge&logo=terraform&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white" height="20"/>
+- 🗄️ Databases: <img src="https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/Redis-%23DC382D.svg?style=for-the-badge&logo=redis&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/Clickhouse-%233EC8C6.svg?style=for-the-badge&logo=clickhouse&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/MongoDB-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/Elasticsearch-%23005571.svg?style=for-the-badge&logo=elasticsearch&logoColor=white" height="20"/>
+
+
+
 
 💼 Experience:
 - Software Development Engineer 2 at [Plivo](https://www.plivo.com/), building [Contacto](https://www.contacto.com) product
