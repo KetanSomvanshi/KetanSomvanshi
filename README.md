@@ -9,9 +9,10 @@ I'm an innovative Engineer and a Problem Solver with a proven track record in bu
 - 🗄️ Databases: PostgreSQL, Redis, Clickhouse, MongoDB, Elasticsearch
 
 💼 Experience:
-- Software Development Engineer 2 at Plivo, building Contacto product
-- Senior Software Engineer at RadixHealth
-- Software Engineer at HSBC.
+- Software Development Engineer 2 at [Plivo](https://www.plivo.com/), building Contacto product
+- Senior Software Engineer at [RadixHealth](https://www.radixhealth.com/), working on DASH
+- Software Engineer at [HSBC](https://www.hsbc.com/), focusing on customer onboarding
+
 
 🚀 Side Project: Tech Lead at ShopMyCar, product aiming to revolutionize the car buying/selling experience.
 
