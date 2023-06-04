@@ -14,7 +14,8 @@ I'm an innovative Engineer and a Problem Solver with a proven track record in bu
 - Software Engineer at [HSBC](https://www.hsbc.com/), focusing on customer onboarding
 
 
-🚀 Side Project: Tech Lead at ShopMyCar, product aiming to revolutionize the car buying/selling experience.
+🚀 Side Project:
+Tech Lead at ShopMyCar, product aiming to revolutionize the car buying/selling experience.
 
 
 ⚡ Interests:
