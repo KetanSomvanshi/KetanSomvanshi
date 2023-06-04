@@ -13,8 +13,10 @@ I'm an innovative Engineer and a Problem Solver with a proven track record in bu
 - Senior Software Engineer at [RadixHealth](https://www.radixhealth.com/), working on DASH
 - Software Engineer at [HSBC](https://www.hsbc.com/), focusing on customer onboarding
 
-
 🚀 Side Project: Tech Lead at ShopMyCar, product aiming to revolutionize the car buying/selling experience.
+
+⚡ Interests:
+Distributed Systems, High-Level System Designing, Low-Level System Designing, Object Oriented Programming, Data Structures and Algorithms.
 
 🌐 Connect with Me: 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ketansomvanshi/)
