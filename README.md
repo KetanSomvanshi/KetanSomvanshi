@@ -51,4 +51,4 @@ Let's connect and collaborate on exciting projects!
 
 Happy coding! 😄
 
-<img src="https://media4.giphy.com/media/26FxzFK4yudFHRFde/200w.gif?cid=82a1493bbh7nn5la0iljowktsa0t88n7gvxlaltzao04dw8p&ep=v1_gifs_related&rid=200w.gif&ct=g" height="100"/> 
+<img src="https://media4.giphy.com/media/26FxzFK4yudFHRFde/200w.gif?cid=82a1493bbh7nn5la0iljowktsa0t88n7gvxlaltzao04dw8p&ep=v1_gifs_related&rid=200w.gif&ct=g" height="150"/> 
