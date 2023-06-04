@@ -18,9 +18,9 @@ I'm an innovative Engineer and a Problem Solver with a proven track record in bu
 
 
 💼 Experience:
-- Software Development Engineer 2 at [Plivo](https://www.plivo.com/), building [Contacto](https://www.contacto.com) product
-- Senior Software Engineer at [RadixHealth](https://www.radixhealth.com/), working on DASH
-- Software Engineer at [HSBC](https://www.hsbc.com/), focusing on customer onboarding
+- Software Development Engineer 2 at [Plivo](https://www.plivo.com/), built [Contacto](https://www.contacto.com) product
+- Senior Software Engineer at [RadixHealth](https://www.radixhealth.com/)
+- Software Engineer at [HSBC](https://www.hsbc.com/)
 
 🚀 Side Project:
 Tech Lead at ShopMyCar, a product aiming to revolutionize the car buying/selling experience.
