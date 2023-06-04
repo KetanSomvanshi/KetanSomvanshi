@@ -6,7 +6,7 @@ url: "https://ketansomvanshi.github.io" # Set your site URL
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-midnight # Change the theme to "jekyll-theme-midnight"
+theme: jekyll-theme-minimal # Change the theme to "jekyll-theme-midnight"
 
 # GitHub Pages specific configuration
 remote_theme: ""
