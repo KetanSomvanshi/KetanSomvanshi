@@ -6,7 +6,7 @@ url: "" # Set your site URL
 
 # Build settings
 markdown: kramdown
-theme: minima # You can change the theme here, or install custom themes
+theme: midnight # You can change the theme here, or install custom themes
 
 # GitHub Pages specific configuration
 remote_theme: # Specify the remote theme if you're using one
