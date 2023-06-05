@@ -57,3 +57,7 @@ Happy coding! 😄
 <div align="center">
   <img src="https://media4.giphy.com/media/26FxzFK4yudFHRFde/200w.gif?cid=82a1493bbh7nn5la0iljowktsa0t88n7gvxlaltzao04dw8p&ep=v1_gifs_related&rid=200w.gif&ct=g" alt="Happy Coding" height="250"/>
 </div>
+
+## 📝 My Blogs
+
+- [Dynamic Object Mapping in SQLAlchemy for Multitenancy](/blogs/dynamic-object-mapping)
