@@ -6,6 +6,7 @@ author: Ketan Somvanshi
 categories: [Python, SQLAlchemy, Multitenancy]
 ---
 
+---
 In complex applications, it's common to encounter scenarios where multiple tables need to be mapped to the same object. This is particularly useful in a multitenant environment where different tenants may have their own separate tables but require the same functionality and object representation. SQLAlchemy, a popular Python ORM (Object-Relational Mapping) library, provides a flexible way to achieve dynamic object mapping. In this blog post, we'll explore how to implement dynamic object mapping using SQLAlchemy for multitenancy scenarios. 🏢🌐
 
 ## Table of Contents
