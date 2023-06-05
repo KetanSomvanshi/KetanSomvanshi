@@ -72,7 +72,9 @@ Once the `Case` class is dynamically created using the `build_case_model` functi
 
 ## 3.🏢 Handling Multitenancy with Dynamic Object Mapping
 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fone9-tech%2Fwhich-database-structure-to-use-in-multi-tenant-application-6f1b9af09634&psig=AOvVaw3AsmiN6aSI5UjG2h8Xt6aB&ust=1686035434188000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJj5is3Jq_8CFQAAAAAdAAAAABAE)
+<div align="center">
+  <img src="assets/multitenant.webp" alt="Happy Coding" height="250"/>
+</div>
 
 In a multitenant environment with shared databases, where each tenant has its own separate tables either in different schemas or in a shared schema, dynamic object mapping can be leveraged to handle multitenancy efficiently. By dynamically creating classes for each tenant-specific table, we can ensure that the same object representation is used for all tenants while maintaining isolation and data separation.
 
