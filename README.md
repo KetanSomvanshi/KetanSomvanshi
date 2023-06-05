@@ -60,4 +60,4 @@ Happy coding! 😄
 
 ## 📝 My Blogs
 
-- [Dynamic Object Mapping in SQLAlchemy for Multitenancy](/blogs/dynamic-object-mapping)
+- [Dynamic Object Mapping in SQLAlchemy for Multitenancy](/blogs/dynamic-object-mapping.md)
