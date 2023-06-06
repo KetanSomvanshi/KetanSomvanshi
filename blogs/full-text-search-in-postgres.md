@@ -19,7 +19,7 @@ categories: [GIN Indexing, Postgres, ElasticSearch , TextSearch]
 - [Conclusion:](#conclusion)
 
 ## Introduction:
-This is part of blog series <span style="background-color: yellow;">Do you really need the Big Gun - Elasticsearch ?</span>. When it comes to full-text search, Elasticsearch has been a popular choice among developers. However, PostgreSQL offers alternatives like leveraging ts_vector and GIN indexing that can serve as robust solutions. In this blog, we will dive into the process of implementing full-text search using ts_vector and GIN indexing in PostgreSQL, along with discussing the pros and cons of this approach.
+This is part of blog series <span style="background-color: green;">Do you really need the Big Gun - Elasticsearch ?</span>. When it comes to full-text search, Elasticsearch has been a popular choice among developers. However, PostgreSQL offers alternatives like leveraging ts_vector and GIN indexing that can serve as robust solutions. In this blog, we will dive into the process of implementing full-text search using ts_vector and GIN indexing in PostgreSQL, along with discussing the pros and cons of this approach.
 
 Here's an explanation of how `ts_vector` and GIN indexing work together for full-text search in PostgreSQL:
 
