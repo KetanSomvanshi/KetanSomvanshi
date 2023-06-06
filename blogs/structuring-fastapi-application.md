@@ -41,7 +41,7 @@ With its performance, asynchronous support, automatic API documentation generati
 
 ## Structure Overview
 
-When creating a FastAPI application, it's important to follow a well-structured project organization to ensure readability, maintainability, and [scalability](http://scalability.In). In the scope of this blog, we would go through an example of Cart Service [repository](https://github.com/KetanSomvanshi/cart-service) in FastAPI. Let's take a closer look at the structure overview provided in the Cart Service repository:
+When creating a FastAPI application, it's important to follow a well-structured project organization to ensure readability, maintainability, and scalability. In the scope of this blog, we would go through an example of [Cart Service](https://github.com/KetanSomvanshi/cart-service) in FastAPI. Let's take a closer look at the structure overview provided in the Cart Service repository:
 
 ### Server
 
