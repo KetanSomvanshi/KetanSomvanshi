@@ -73,3 +73,4 @@ Happy coding! 😄
 - [Dynamic Object Mapping in SQLAlchemy for Multitenancy](/blogs/dynamic-object-mapping.md)
 - Do you really need the Big Gun - Elasticsearch ?
   - [Exploring Full-Text Search with ts_vector and GIN Indexing in PostgreSQL](/blogs/full-text-search-in-postgres.md)
+  - [Quickwit vs Elasticsearch - Comparing Two Powerful Search Solutions](/blogs/unlocking-efficient-search-with-quickwit.md)
