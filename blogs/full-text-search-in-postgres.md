@@ -114,4 +114,4 @@ However, it's essential to consider the trade-offs and limitations of this appro
 
 With ts_vector and GIN indexing, PostgreSQL becomes more than just a traditional relational database. It becomes a powerful tool for managing and searching textual data efficiently.
 
-Happy searching!
+Happy searching!✨🚀
