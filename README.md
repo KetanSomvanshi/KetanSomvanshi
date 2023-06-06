@@ -41,13 +41,19 @@ I'm an innovative Engineer and a Problem Solver with a proven track record in bu
 
 💼 Experience:
 - Software Development Engineer 2 at [Plivo](https://www.plivo.com/), built [Contacto](https://www.contacto.com) product
+
 - Senior Software Engineer at [RadixHealth](https://www.radixhealth.com/)
+
 - Software Engineer at [HSBC](https://www.hsbc.com/)
+
 
 🚀 Other Project:
 - Tech Lead at [ShopMyCar](https://www.linkedin.com/company/shopmycar/), a product aiming to revolutionize the car buying/selling experience.
+
 - Interned at Theta Controls to build an Unmanned Autonomous Vehicle for DRDO.
+
 - Core team member of [PICT Team Robocon](https://www.linkedin.com/company/pictrobotics/), represented college for national level competitions.
+
 
 ⚡ Interests:
 Distributed Systems, High-Level System Designing, Low-Level System Designing, Object-Oriented Programming, Data Structures, and Algorithms.
