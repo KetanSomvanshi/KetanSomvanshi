@@ -43,6 +43,8 @@ With its performance, asynchronous support, automatic API documentation generati
 
 When creating a FastAPI application, it's important to follow a well-structured project organization to ensure readability, maintainability, and scalability. In the scope of this blog, we would go through an example of [Cart Service](https://github.com/KetanSomvanshi/cart-service) in FastAPI. Let's take a closer look at the structure overview provided in the Cart Service repository:
 
+![](assets/fastapi.png)
+
 ### Server
 
 The [`server`](https://github.com/KetanSomvanshi/cart-service/tree/master/server) directory includes the main application files responsible for handling HTTP requests and routing. It typically includes files for initializing the application, configuring routes, and implementing authentication and authorization functionality.
