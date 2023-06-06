@@ -37,7 +37,7 @@ categories: [FastAPI]
 
 FastAPI is a powerful and high-performance Python web framework designed for building APIs quickly and efficiently. It leverages modern Python features such as type annotations and async/await syntax to provide a seamless development experience. FastAPI offers incredible speed and scalability, making it a preferred choice for building robust web applications.
 
-With its performance, asynchronous support, automatic API documentation generation, and built-in request validation, FastAPI has gained popularity among developers.<span style="background-color: green;"> However, there aren't always enough resources available to guide developers on building well-structured, maintainable code with better coding practices. In this blog post, we will provide an in-depth guide on how to structure a FastAPI application for optimal maintainability and scalability.</span>
+With its performance, asynchronous support, automatic API documentation generation, and built-in request validation, FastAPI has gained popularity among developers.<span style="background-color: green;"> However, there aren't always enough resources available to guide developers on building well-structured, maintainable code with better coding practices in FastAPI. In this blog post, we will provide an in-depth guide on how to structure a FastAPI application for optimal maintainability and scalability.</span>
 
 ## Structure Overview
 
@@ -163,3 +163,4 @@ we can use tox for linting and formatting checks - [Sample tox file](https://git
 ## Conclusion
 
 Structuring your FastAPI application properly is essential for maintaining code quality, scalability, and readability. By following the suggested structure and incorporating best practices like dependency injection, error handling, and utilizing additional libraries, you can build robust and maintainable FastAPI applications. Remember to adapt the structure to your specific project requirements and keep the codebase organized as it grows over time.
+Happy coding in FastAPI!✨🚀
