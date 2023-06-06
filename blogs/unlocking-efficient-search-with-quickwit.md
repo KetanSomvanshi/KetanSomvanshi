@@ -16,7 +16,7 @@ categories: [Quickwit, ElasticSearch , TextSearch]
 - [Conclusion](#conclusion)
 
 ## Introduction
-In today's data-driven world, finding the right search solution is crucial for businesses to extract actionable insights and unlock the value of their data. Elasticsearch has long been a popular choice for building robust search applications, but now a new contender has emerged: Quickwit. In this blog post, we will delve into a comprehensive comparison of Quickwit and Elasticsearch, exploring their architectures, infrastructure requirements, and the pros and cons of each solution.
+This is part of blog series <span style="background-color: green;">Do you really need the Big Gun - Elasticsearch ?</span>. In today's data-driven world, finding the right search solution is crucial for businesses to extract actionable insights and unlock the value of their data. Elasticsearch has long been a popular choice for building robust search applications, but now a new contender has emerged: Quickwit. In this blog post, we will delve into a comprehensive comparison of Quickwit and Elasticsearch, exploring their architectures, infrastructure requirements, and the pros and cons of each solution.
 
 ## ElasticSearch Architecture
 <div align="center">
@@ -39,7 +39,7 @@ The architecture of Elasticsearch allows for horizontal scalability and fault to
   <img src="assets/quickwit-architecture-dark.svg" alt="Happy Coding"/>
 </div>
 
-Quickwit follows a different architecture compared to Elasticsearch, separating storage and computation. It utilizes cheaper storage options such as local file storage or distributed file storage like Amazon S3, reducing the overall cost.
+<span style="background-color: green;">Quickwit follows a different architecture compared to Elasticsearch, separating storage and computation. It utilizes cheaper storage options such as local file storage or distributed file storage like Amazon S3, reducing the overall cost.</span>
 
 The architecture of Quickwit can be described as follows:
 - Index Storage: The index data is stored in a cost-effective storage system, such as local file storage or Amazon S3. This decoupling of storage allows for flexibility and cost optimization.
@@ -106,7 +106,7 @@ By separating storage and computation, Quickwit provides a more cost-effective s
       </td>
       <td>
         <ul>
-          <li>As data is fetched from file storage, this is a solution with high latency. It is recommended to use Quickwit for scenarios where QPS would be less than 10 and latency can be between 200ms to 500ms.</li>
+          <li>As data is fetched from file storage, this is a solution with high latency.<span style="background-color: green;"> It is recommended to use Quickwit for scenarios where QPS would be less than 10 and latency can be between 200ms to 500ms.</span></li>
           <li>Indexer nodes cannot be scaled horizontally as of now. Might be supported in the future. This becomes a single point of failure. This also hosts API for insertion.</li>
           <li>Not ideal for frequently updated data. There is no update API for documents, and once documents are added, they become immutable. We can delete and reindex the document as well, but that delete API is not yet provided by Quickwit, and as per them, it would be a costly operation.</li>
           <li>No support for fuzzy search.</li>
