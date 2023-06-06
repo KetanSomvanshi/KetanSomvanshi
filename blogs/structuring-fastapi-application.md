@@ -23,13 +23,13 @@ categories: [FastAPI]
   - [Tests](#tests)
   - [Utils](#utils)
 - [Dependency Injection](#dependency-injection)
-- [Deployment](#deployment)
 - [Error Handling](#error-handling)
-- [Additional Libraries](#additional-libraries)
+- [Additional Libraries And Concepts](#additional-libraries-and-concepts)
   - [Pydantic and Typing](#pydantic-and-typing)
   - [Context Managers](#context-managers)
-  - [Databases Library](#databases-library)
+  - [Working with DB Sessions](#working-with-db-sessions)
   - [Gunicorn Server](#gunicorn-server)
+  - [Linting and Formatting](#linting-and-formatting)
 - [Conclusion](#conclusion)
 
 
@@ -57,7 +57,7 @@ The [`data_adapter`](https://github.com/KetanSomvanshi/cart-service/tree/master/
 
 ### Models
 
-The [`models`](https://github.com/KetanSomvanshi/cart-service/tree/master/models) directory holds the data models or schemas used by the application. It includes files for defining the application's models and their relationships.
+The [`models`](https://github.com/KetanSomvanshi/cart-service/tree/master/models) directory holds the data models or schemas used by the application. It includes files for defining the application's models and their relationships. This also helps us to implement DTO(Data Transfer through Objects) pattern where we are exchanging data in between different layers through these model instances.
 
 ### Service
 
@@ -97,15 +97,19 @@ Other important files in the project structure include `.gitignore`, `README.md`
 
 FastAPI encourages the use of dependency injection to manage dependencies and promote testability and modular code. There are several dependency injection frameworks available for FastAPI, such as `Dependency` and `Inject`. These frameworks help organize and manage the dependencies required by different components of your application, making it easier to write testable and maintainable code.
 
-## Deployment
-
-When it comes to deploying a FastAPI application, there are multiple options available. You can deploy to cloud platforms like Heroku or AWS, containerize the application using Docker, and use an ASGI server like Uvicorn or Gunicorn to serve the application. Choosing the right deployment strategy depends on your specific requirements and infrastructure.
-
 ## Error Handling
 
-Proper error handling is crucial in any web application, and FastAPI provides mechanisms to handle exceptions and return appropriate error responses to clients. By using FastAPI's exception handling capabilities, you can gracefully handle errors and provide meaningful feedback to users when something goes wrong.
+Proper error handling is crucial in any web application, and FastAPI provides mechanisms to handle exceptions and return appropriate error responses to clients. By using FastAPI's exception handling capabilities, you can gracefully handle errors and provide meaningful feedback to users when something goes wrong. like below -
+```python
+@app.exception_handler(ValidationError)
+async def pydantic_validation_exception_handler(request: Request, exc):
+    context_set_db_session_rollback.set(True)
+    logger.error(extra=context_log_meta.get(), msg=f"data validation failed {exc.errors()}")
+    return build_api_response(GenericResponseModel(status_code=http.HTTPStatus.BAD_REQUEST,
+                                                   error="Data Validation Failed"))
+```
 
-## Additional Libraries
+## Additional Libraries And Concepts
 
 FastAPI integrates well with several additional libraries and concepts that enhance its functionality and development experience. Let's explore a few of them:
 
@@ -115,15 +119,44 @@ FastAPI recommends using the Pydantic library to create models and handle data v
 
 ### Context Managers
 
-FastAPI allows you to set and access context within your application using context variables or Starlette's request and application state. Context managers help manage resources and variables that should be available within the context of a request or application.
+FastAPI allows you to set and access context within your application using context variables or Starlette's request and application state. Context managers help manage resources and variables that should be available within the context of a request or application.[In this scope we have used context variables](https://github.com/KetanSomvanshi/cart-service/blob/master/controller/context_manager.py).
+We build a request context and inject it as a dependency for every request so that the context is set with every request.
 
-### Databases Library
+### Working with DB Sessions
 
-FastAPI works well with various databases, and the `databases` library is a popular choice for interacting with databases asynchronously. This library provides a simple and intuitive interface for executing database queries and transactions in an asynchronous manner, leveraging the power of Python's `asyncio` framework.
+In every request we can initiate the DB transactions by injecting the dependecy that yields db session. And at the end of the request we can commit or rollback the transaction.
+Example of db dependency injector -
+```python
+def get_db():
+    """this function is used to inject db_session dependency in every rest api requests"""
+    from controller.context_manager import context_set_db_session_rollback
+    db: Session = SessionLocal()
+    try:
+        yield db
+        #  commit the db session if no exception occurs
+        #  if context_set_db_session_rollback is set to True then rollback the db session
+        if context_set_db_session_rollback.get():
+            logging.info('rollback db session')
+            db.rollback()
+        else:
+            db.commit()
+    except Exception as e:
+        #  rollback the db session if any exception occurs
+        logging.error(e)
+        db.rollback()
+    finally:
+        #  close the db session
+        db.close()
+```
 
 ### Gunicorn Server
 
 Gunicorn (Green Unicorn) is a widely used ASGI server for running Python web applications, including FastAPI. It provides high performance and scalability, making it suitable for production deployments. Gunicorn can handle multiple worker processes, allowing your FastAPI application to handle a large number of concurrent requests efficiently.
+
+### Linting and Formatting 
+
+we can use tox for linting and formatting checks - [Sample tox file](https://github.com/KetanSomvanshi/cart-service/blob/master/tox.ini)
+
 
 ## Conclusion
 
