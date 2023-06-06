@@ -57,6 +57,7 @@ I'm an innovative Engineer and a Problem Solver with a proven track record in bu
 
 
 ⚡ Interests:
+
 Distributed Systems, High-Level System Designing, Low-Level System Designing, Object-Oriented Programming, Data Structures, and Algorithms.
 
 Let's connect and collaborate on exciting projects!
