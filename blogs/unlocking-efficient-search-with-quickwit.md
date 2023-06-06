@@ -52,12 +52,70 @@ The architecture of Quickwit can be described as follows:
 By separating storage and computation, Quickwit provides a more cost-effective solution while still delivering efficient search capabilities. It is particularly suited for smaller search use cases where lower QPS (queries per second) and acceptable latency are acceptable trade-offs.
 
 ## Comparison 
-| Comparison Points | Elasticsearch                                                         | Quickwit                                                                |
-|-------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------|
-| Architecture      | In ElasticSearch Documents are stored into Segments which are eventually part of Shards. And these shards(and their replicas) are distributed across different physical data nodes in the cluster. So every node eventually owns some part of data of the index. Nodes are responsible for both Computation and Storage of Index data      | QuickWit Seperates Storage and Computation. QuickWit uses cheaper options of local file storage or distributed file storage like s3 which reduces the cost. Searcher and Indexer nodes in quickwit are stateless that means these nodes do not hold any data they just perform computation. |
-| Infrastructure    | ElasticSearch clusters are complex to self host as there are multiple nodes involved and there would be scenarios where adding or removing nodes might lead to redistribution of shards across nodes. We will have to use managed solutions for this  |  Hosting QuickWit is fairly easy. We can use s3 as index storage and postgres for metadata storage. Indexer and Searcher nodes can be hosted independently as ECS services. For scaling search queries we can use multiple searcher nodes and put searcher nodes on autoscaling. Adding and removing searcher nodes is not complex as nodes do not hold any data like ES nodes.             |
-| Pros              | - Data belongs to data node(mostly stored in SSD) and hence data can be fetched faster thus this provides low latency over quickwit.<br> - ElasticSearch provides update document APIs which are required for our usecases. Documents are by nature immutable but ES update APIs delete older documents and reindex the new ones. <br> - Proven solution and can provide high QPS with low latency. <br> - We can setup Elasticsearch as a managed service on AWS. We might have better support for setting up alerts & monitoring using cloudwatch metrics.| - Way cheaper than ES as index data is stored in cheaper file storage than storing it at node level. <br> - Easy scalability of Searcher nodes as searcher nodes are stateless and while scaling we don't need to move data around the nodes. |
-| Cons              | - Costly solution. <br> - Complex architecture. <br> - Not easy to self-host. | - As data is fetched from file storage , this is a solution with high latency. It is recommended to use quickwit for scenarios where QPS would be less than 10 and latency can be between 200ms to 500ms. <br> - Indexer nodes cannot be scaled horizontally as of now. Might be supported in future. This becomes a single point of failure. This also hosts API for insertion.<br> - Not ideal for Frequently updated data. There is no update API for documents and once documents are added it becomes immutable. We can delete and reindex the document as well but that delete api is not yet provided by quickwit and as per them it would be costly operation. <br> - No support fuzzy search. <br> - Manual management of alerts and monitoring. Need extensive runbooks. |
+<table>
+  <thead>
+    <tr>
+      <th>Comparison Points</th>
+      <th>Elasticsearch</th>
+      <th>Quickwit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Architecture</td>
+      <td>
+        In ElasticSearch, documents are stored into segments which are eventually part of shards. These shards (and their replicas) are distributed across different physical data nodes in the cluster. So every node eventually owns some part of data of the index. Nodes are responsible for both computation and storage of index data.
+      </td>
+      <td>
+        Quickwit separates storage and computation. Quickwit uses cheaper options of local file storage or distributed file storage like S3, which reduces the cost. Searcher and Indexer nodes in Quickwit are stateless, which means these nodes do not hold any data; they just perform computation.
+      </td>
+    </tr>
+    <tr>
+      <td>Infrastructure</td>
+      <td>
+        Elasticsearch clusters are complex to self-host as there are multiple nodes involved, and there would be scenarios where adding or removing nodes might lead to redistribution of shards across nodes. We will have to use managed solutions for this.
+      </td>
+      <td>
+        Hosting Quickwit is fairly easy. We can use S3 as index storage and PostgreSQL for metadata storage. Indexer and Searcher nodes can be hosted independently as ECS services. For scaling search queries, we can use multiple searcher nodes and put searcher nodes on autoscaling. Adding and removing searcher nodes is not complex as nodes do not hold any data like ES nodes.
+      </td>
+    </tr>
+    <tr>
+      <td>Pros</td>
+      <td>
+        <ul>
+          <li>Data belongs to data nodes (mostly stored in SSD), and hence data can be fetched faster, thus providing low latency over Quickwit.</li>
+          <li>Elasticsearch provides update document APIs which are required for our use cases. Documents are by nature immutable, but ES update APIs delete older documents and reindex the new ones.</li>
+          <li>Proven solution and can provide high QPS with low latency.</li>
+          <li>We can set up Elasticsearch as a managed service on AWS. We might have better support for setting up alerts & monitoring using CloudWatch metrics.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Way cheaper than ES as index data is stored in cheaper file storage than storing it at node level.</li>
+          <li>Easy scalability of Searcher nodes as searcher nodes are stateless, and while scaling, we don't need to move data around the nodes.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Cons</td>
+      <td>
+        <ul>
+          <li>Very costly solution and might be overkill for smaller search usecases.</li>
+          <li>Complex architecture and not easy to self host.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>As data is fetched from file storage, this is a solution with high latency. It is recommended to use Quickwit for scenarios where QPS would be less than 10 and latency can be between 200ms to 500ms.</li>
+          <li>Indexer nodes cannot be scaled horizontally as of now. Might be supported in the future. This becomes a single point of failure. This also hosts API for insertion.</li>
+          <li>Not ideal for frequently updated data. There is no update API for documents, and once documents are added, they become immutable. We can delete and reindex the document as well, but that delete API is not yet provided by Quickwit, and as per them, it would be a costly operation.</li>
+          <li>No support for fuzzy search.</li>
+          <li>Manual management of alerts and monitoring. Need extensive runbooks.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Conclusion
 Choosing the right search solution depends on your specific requirements, budget, and expected scale. Elasticsearch offers a proven solution with low latency, high QPS, and support for update APIs. However, it can be costly and complex to manage. On the other hand, Quickwit provides a cost-effective and easily scalable option, suitable for smaller use cases. Consider your organization's needs and evaluate the trade-offs outlined in this comparison to make an informed decision about which solution best fits your search requirements.
