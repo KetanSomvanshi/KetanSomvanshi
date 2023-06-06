@@ -119,3 +119,4 @@ By separating storage and computation, Quickwit provides a more cost-effective s
 
 ## Conclusion
 Choosing the right search solution depends on your specific requirements, budget, and expected scale. Elasticsearch offers a proven solution with low latency, high QPS, and support for update APIs. However, it can be costly and complex to manage. On the other hand, Quickwit provides a cost-effective and easily scalable option, suitable for smaller use cases. Consider your organization's needs and evaluate the trade-offs outlined in this comparison to make an informed decision about which solution best fits your search requirements.
+Happy searching!✨🚀
