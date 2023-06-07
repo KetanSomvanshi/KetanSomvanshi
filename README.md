@@ -6,7 +6,7 @@
 [![LeetCode](https://img.shields.io/badge/LeetCode-Solve-yellow?style=for-the-badge&logo=leetcode)](https://leetcode.com/ketansomvanshi007/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-lightgrey?style=for-the-badge)](https://ketansomvanshi.github.io/KetanSomvanshi/)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/KetanSomvanshi/)
-
+[![Medium](https://img.shields.io/badge/Medium-Profile-black?style=for-the-badge&logo=medium)](https://medium.com/@ketansomvanshi007)
 
 I'm an innovative Engineer and a Problem Solver with a proven track record in building cutting-edge, high-performance, and scalable systems that drive the digital landscape. With a meticulous attention to detail and a passion for delivering reliable solutions, I thrive on transforming complex challenges into elegant and efficient software solutions.
 
