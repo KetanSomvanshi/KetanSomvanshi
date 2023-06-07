@@ -70,8 +70,8 @@ Happy coding! 😄
 
 ## 📝 My Blogs
 
-- [Structuring a FastAPI App: An In-Depth Guide](/blogs/structuring-fastapi-application.md)
+- [Structuring a FastAPI App: An In-Depth Guide](https://medium.com/@ketansomvanshi007/structuring-a-fastapi-app-an-in-depth-guide-cdec3b8f4710)
 - Do you really need the Big Gun - Elasticsearch ?
-  - [Exploring Full-Text Search with ts_vector and GIN Indexing in PostgreSQL](/blogs/full-text-search-in-postgres.md)
-  - [Quickwit vs Elasticsearch - Comparing Two Powerful Search Solutions](/blogs/unlocking-efficient-search-with-quickwit.md)
-- [Dynamic Object Mapping in SQLAlchemy for Multitenancy](/blogs/dynamic-object-mapping.md)
+  - [Exploring Full-Text Search with ts_vector and GIN Indexing in PostgreSQL](https://medium.com/@ketansomvanshi007/exploring-full-text-search-with-ts-vector-and-gin-indexing-in-postgresql-11ba4e7b8282)
+  - [Quickwit vs Elasticsearch - Comparing Two Powerful Search Solutions](https://medium.com/@ketansomvanshi007/quickwit-vs-elasticsearch-comparing-two-powerful-search-solutions-66c43dff4697)
+- [Dynamic Object Mapping in SQLAlchemy for Multitenancy](https://medium.com/@ketansomvanshi007/dynamic-object-mapping-in-sqlalchemy-for-multitenancy-4e7c5064c816)
