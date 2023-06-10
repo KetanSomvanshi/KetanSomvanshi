@@ -41,11 +41,11 @@ I'm an innovative Engineer and a Problem Solver with a proven track record in bu
 
 
 💼 Experience:
-- Software Development Engineer 2 at [Plivo](https://www.plivo.com/), built [Contacto](https://www.contacto.com) product
+- Software Development Engineer 2 at [Plivo](https://www.plivo.com/), built [Contacto](https://www.contacto.com) from scratch.
 
-- Senior Software Engineer at [RadixHealth](https://www.radixhealth.com/)
+- Senior Software Engineer at [RadixHealth](https://www.radixhealth.com/) , got aquired by [Relatient](https://www.relatient.com/).
 
-- Software Engineer at [HSBC](https://www.hsbc.com/)
+- Software Engineer at [HSBC](https://www.hsbc.com/).
 
 
 🚀 Other Project:
