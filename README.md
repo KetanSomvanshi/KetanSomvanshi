@@ -4,7 +4,7 @@
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter)](https://twitter.com/ketsindian)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=mail)](mailto:ketan.dev0@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Solve-yellow?style=for-the-badge&logo=leetcode)](https://leetcode.com/ketansomvanshi007/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-lightgrey?style=for-the-badge)](ketansomvanshi.xyz)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-lightgrey?style=for-the-badge)](www.ketansomvanshi.xyz)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/KetanSomvanshi/)
 [![Medium](https://img.shields.io/badge/Medium-Profile-black?style=for-the-badge&logo=medium)](https://medium.com/@ketansomvanshi007)
 
