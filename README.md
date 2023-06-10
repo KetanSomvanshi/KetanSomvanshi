@@ -49,7 +49,7 @@ I'm an innovative Engineer and a Problem Solver with a proven track record in bu
 
 
 🚀 Other Project:
-- Tech Lead at [ShopMyCar](https://www.linkedin.com/company/shopmycar/), a product aiming to revolutionize the car buying/selling experience.
+- Founding Member at [ShopMyCar](https://www.linkedin.com/company/shopmycar/), a product aiming to revolutionize the car buying/selling experience.
 
 - Interned at Theta Controls to build an Unmanned Autonomous Vehicle for DRDO.
 
