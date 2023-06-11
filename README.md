@@ -9,7 +9,7 @@
 [![Medium](https://img.shields.io/badge/Medium-Profile-black?style=for-the-badge&logo=medium)](https://medium.com/@ketansomvanshi007)
 
 I'm an innovative Engineer and a Problem Solver with a proven track record in building cutting-edge, high-performance, and scalable systems that drive the digital landscape. With a meticulous attention to detail and a passion for delivering reliable solutions, I thrive on transforming complex challenges into elegant and efficient software solutions.
-
+I am a versatile and adaptable engineer with expertise across various tech stacks,My ability to remain framework and language agnostic enables me to quickly learn and adapt to new technologies.
 
 🔧 Skills: 
 - 💻 Languages: 
