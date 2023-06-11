@@ -70,6 +70,7 @@ Happy coding! 😄
 
 ## 📚 My Blogs
 
+- [Synchronizing Multiple Data Sources in a Distributed System: Ensuring Consistency and Accuracy](https://medium.com/@ketansomvanshi007/synchronizing-multiple-data-sources-in-a-distributed-system-ensuring-consistency-and-accuracy-8e087b3b5ed6)
 - [Structuring a FastAPI App: An In-Depth Guide](https://medium.com/@ketansomvanshi007/structuring-a-fastapi-app-an-in-depth-guide-cdec3b8f4710)
 - Do you really need the Big Gun - Elasticsearch ?
   - [Exploring Full-Text Search with ts_vector and GIN Indexing in PostgreSQL](https://medium.com/@ketansomvanshi007/exploring-full-text-search-with-ts-vector-and-gin-indexing-in-postgresql-11ba4e7b8282)
