@@ -51,7 +51,8 @@ I am a versatile and adaptable engineer with expertise across various tech stack
 - Software Engineer at [HSBC](https://www.hsbc.com/).
 
 
-🚀 Other Project:
+🚀 Other Highlights :
+
 - Founding Member at [ShopMyCar](https://www.linkedin.com/company/shopmycar/), a product aiming to revolutionize the car buying/selling experience.
 
 - Interned at Theta Controls to build an Unmanned Autonomous Vehicle for DRDO.
