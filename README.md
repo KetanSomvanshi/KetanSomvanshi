@@ -1,12 +1,12 @@
 ## Hi there, I'm Ketan 👋
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ketansomvanshi/)
+[![Medium](https://img.shields.io/badge/Medium-Profile-black?style=for-the-badge&logo=medium)](https://medium.com/@ketansomvanshi007)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/KetanSomvanshi/)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter)](https://twitter.com/ketsindian)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=mail)](mailto:ketan.dev0@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Solve-yellow?style=for-the-badge&logo=leetcode)](https://leetcode.com/ketansomvanshi007/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-lightgrey?style=for-the-badge)](https://ketansomvanshi.xyz)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/KetanSomvanshi/)
-[![Medium](https://img.shields.io/badge/Medium-Profile-black?style=for-the-badge&logo=medium)](https://medium.com/@ketansomvanshi007)
 
 I'm an innovative Engineer and a Problem Solver with a proven track record in building cutting-edge, high-performance, and scalable systems that drive the digital landscape. With a meticulous attention to detail and a passion for delivering reliable solutions, I thrive on transforming complex challenges into elegant and efficient software solutions.
 I am a versatile and adaptable engineer with expertise across various tech stacks, My ability to remain framework and language agnostic enables me to quickly learn and adapt to new technologies.
@@ -51,7 +51,7 @@ I am a versatile and adaptable engineer with expertise across various tech stack
 - Software Engineer at [HSBC](https://www.hsbc.com/).
 
 
-🚀 Other Highlights :
+🚀 Other Highlights:
 
 - Founding Member at [ShopMyCar](https://www.linkedin.com/company/shopmycar/), a product aiming to revolutionize the car buying/selling experience.
 
