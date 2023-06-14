@@ -41,6 +41,9 @@ I am a versatile and adaptable engineer with expertise across various tech stack
 
 
 💼 Experience:
+
+- Senior Software Engineer at [Headout](https://headout.com/).
+
 - Software Development Engineer 2 at [Plivo](https://www.plivo.com/), built [Contacto](https://www.contacto.com) from scratch.
 
 - Senior Software Engineer at [RadixHealth](https://www.radixhealth.com/) , got aquired by [Relatient](https://www.relatient.com/).
