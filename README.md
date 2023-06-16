@@ -78,7 +78,7 @@ Let's connect and collaborate on exciting projects!
 - [Dynamic Object Mapping in SQLAlchemy for Multitenancy](https://medium.com/@ketansomvanshi007/dynamic-object-mapping-in-sqlalchemy-for-multitenancy-4e7c5064c816)
 
 --- 
-<br><div align="center">Happy coding! 😄</div> <br>
+<br> <div align="center">Happy coding! 😄</div> <br>
 <div align="center">
   <img src="https://media4.giphy.com/media/26FxzFK4yudFHRFde/200w.gif?cid=82a1493bbh7nn5la0iljowktsa0t88n7gvxlaltzao04dw8p&ep=v1_gifs_related&rid=200w.gif&ct=g" alt="Happy Coding" height="250"/>
 </div>
