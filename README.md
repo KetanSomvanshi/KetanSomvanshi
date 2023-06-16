@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+ 
 ## Hi there, I'm Ketan 👋
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ketansomvanshi/)
@@ -66,13 +68,9 @@ Distributed Systems, High-Level System Designing, Low-Level System Designing, Ob
 
 Let's connect and collaborate on exciting projects!
 
-Happy coding! 😄
+--- 
 
-<div align="center">
-  <img src="https://media4.giphy.com/media/26FxzFK4yudFHRFde/200w.gif?cid=82a1493bbh7nn5la0iljowktsa0t88n7gvxlaltzao04dw8p&ep=v1_gifs_related&rid=200w.gif&ct=g" alt="Happy Coding" height="250"/>
-</div>
-
-## 📚 My Blogs
+## 📚 Blogs
 
 - [Synchronizing Multiple Data Sources in a Distributed System: Ensuring Consistency and Accuracy](https://medium.com/@ketansomvanshi007/synchronizing-multiple-data-sources-in-a-distributed-system-ensuring-consistency-and-accuracy-8e087b3b5ed6)
 - [Structuring a FastAPI App: An In-Depth Guide](https://medium.com/@ketansomvanshi007/structuring-a-fastapi-app-an-in-depth-guide-cdec3b8f4710)
@@ -80,3 +78,9 @@ Happy coding! 😄
   - [Exploring Full-Text Search with ts_vector and GIN Indexing in PostgreSQL](https://medium.com/@ketansomvanshi007/exploring-full-text-search-with-ts-vector-and-gin-indexing-in-postgresql-11ba4e7b8282)
   - [Quickwit vs Elasticsearch - Comparing Two Powerful Search Solutions](https://medium.com/@ketansomvanshi007/quickwit-vs-elasticsearch-comparing-two-powerful-search-solutions-66c43dff4697)
 - [Dynamic Object Mapping in SQLAlchemy for Multitenancy](https://medium.com/@ketansomvanshi007/dynamic-object-mapping-in-sqlalchemy-for-multitenancy-4e7c5064c816)
+
+--- 
+<div align="center">Happy coding! 😄</div>
+<div align="center">
+  <img src="https://media4.giphy.com/media/26FxzFK4yudFHRFde/200w.gif?cid=82a1493bbh7nn5la0iljowktsa0t88n7gvxlaltzao04dw8p&ep=v1_gifs_related&rid=200w.gif&ct=g" alt="Happy Coding" height="250"/>
+</div>
