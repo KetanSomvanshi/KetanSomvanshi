@@ -55,7 +55,7 @@ I am a versatile and adaptable engineer with expertise across various tech stack
 
 - Founding Member at [ShopMyCar](https://www.linkedin.com/company/shopmycar/), a product aiming to revolutionize the car buying/selling experience.
 
-- Interned at Theta Controls to build an Unmanned Autonomous Vehicle for DRDO.
+- Interned at Theta Controls to build an [Unmanned Autonomous Vehicle](https://thetacontrols.com/distribution_inr/1) for [DRDO](https://www.drdo.gov.in/).
 
 - Core team member of [PICT Team Robocon](https://www.linkedin.com/company/pictrobotics/), represented college for national level competitions.
 
