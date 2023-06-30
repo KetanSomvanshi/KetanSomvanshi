@@ -65,6 +65,7 @@ I am a versatile and adaptable engineer with expertise across various tech stack
 Distributed Systems, High-Level System Designing, Low-Level System Designing, Object-Oriented Programming, Data Structures, and Algorithms.
 
 Let's connect and collaborate on exciting projects!
+Happy coding! 😄
 
 --- 
 
@@ -79,7 +80,6 @@ Let's connect and collaborate on exciting projects!
 
 --- 
 
-<div align="center">Happy coding! 😄</div> <br>
 <div align="center">
   <img src="https://media4.giphy.com/media/26FxzFK4yudFHRFde/200w.gif?cid=82a1493bbh7nn5la0iljowktsa0t88n7gvxlaltzao04dw8p&ep=v1_gifs_related&rid=200w.gif&ct=g" alt="Happy Coding" height="250"/>
 </div>
